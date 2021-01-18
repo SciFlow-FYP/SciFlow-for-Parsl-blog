@@ -13,6 +13,8 @@ The diagram below depicts an example scientific workflow, which makes use of thr
 2. Parallel Split Connector for splitting the coordination thread into concurrent modules
 3. Exclusive Choice Connector to enforce dynamic decision making. 
 
+[https://github.com/SciFlow-FYP/SciFlow-for-Parsl-blog/blob/main/diagrams/SciFlow-ExampleWorkflow.png]
+
 SciFlow focuses on dynamic decision making, where the outcome of an intermediary workflow component would be used to determine the path that the remainder of the workflow would take. This can be facilitated by automating the workflow to run a number of times parallely, with different parameters. Connectors can be used to select the best performing parameter set based on some performance matric. Based on this selection the workflow path would be modified at runtime, to yield better quality results.
 
 ## Parsl in SciFlow 
@@ -27,4 +29,6 @@ With Parsl’s implicit parallelism, we are able to orchestrate the workflow on 
 The scientific workflow applications SciFlow caters to, make use of large datasets. Therefore, we use both data and task parallelism to improve computational efficiency. The framework executes computational modules concurrently using the Golang control thread, thereby providing task parallelism. This proves to be extremely helpful in situations similar to hyper parameter optimisation. Using SciFlow and Parsl, the user has the ability to divide the dataset either horizontally or vertically as suited, to achieve data parallelism. 
 
 The diagram below depicts this process, where task parallelism is achieved with Golang and data parallelism with Parsl. 
+
+[https://github.com/SciFlow-FYP/SciFlow-for-Parsl-blog/blob/main/diagrams/SciFlow-DataParallelism.png]
 

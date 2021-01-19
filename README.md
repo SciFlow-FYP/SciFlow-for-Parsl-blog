@@ -36,7 +36,7 @@ The diagram below depicts this process, where task parallelism is achieved with 
 <img src="https://github.com/SciFlow-FYP/SciFlow-for-Parsl-blog/blob/main/diagrams/SciFlow-DataParallelism.png" alt="Parallelism in SciFlow" width="650" align="center">
 </p>
 
-##Conclusion
+## Conclusion
 SciFlow brings together the concepts of scientific workflow management and implicit parallelism to create an enhanced method for constructing dynamic workflows. This improved performance has been observed through case studies in data analytics and combinatorial optimization. The benefits of parallelism are apparent in such projects owing to the large data volumes and high processing power required.
 
 Parsl allows the SciFlow workflow management framework to scale out easily on a range of HPC resources, while reaping the benefits of data parallelization in computational modules. Parsl’s implicit parallelism makes complex computational resources accessible with minimal effort to domain users, irrespective of their HPC knowledge.

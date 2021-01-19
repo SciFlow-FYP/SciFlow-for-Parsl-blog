@@ -4,7 +4,7 @@ The majority of tasks that we, as researchers and analysts, perform, are conveni
 
 The SciFlow framework provides a set of compositional channel connectors in a control thread, which can be used to construct a variety of workflow patterns. We separate computational components from coordination components by writing a separate control thread to provide easier workflow modification and component reusability to users. 
 
-SciFlow is a flexible workflow management system which can be executed on a multitude of HPC resources due to the implicit parallelism that Parsl provides. 
+SciFlow is a flexible workflow management system which can be executed on a multitude of High Performance Computing (HPC) resources due to the implicit parallelism that Parsl provides. 
 
 ## SciFlow Workflow Connectors
 A SciFlow workflow is constructed by stringing together individual Python-Parsl computational units, coordinated by a Golang control thread using ‘connectors’. With SciFlow’s channel connectors, the user is able to connect computational components in a variety of commonly used workflow patterns, as suited to his application. 
@@ -36,3 +36,10 @@ The diagram below depicts this process, where task parallelism is achieved with 
 <img src="https://github.com/SciFlow-FYP/SciFlow-for-Parsl-blog/blob/main/diagrams/SciFlow-DataParallelism.png" alt="Parallelism in SciFlow" width="650" align="center">
 </p>
 
+##Conclusion
+SciFlow brings together the concepts of scientific workflow management and implicit parallelism to create an enhanced method for constructing dynamic workflows. This improved performance has been observed through case studies in data analytics and combinatorial optimization. The benefits of parallelism are apparent in such projects owing to the large data volumes and high processing power required.
+
+Parsl allows the SciFlow workflow management framework to scale out easily on a range of HPC resources, while reaping the benefits of data parallelization in computational modules. Parsl’s implicit parallelism makes complex computational resources accessible with minimal effort to domain users, irrespective of their HPC knowledge.
+
+Please feel free to reach out to us at <a href="mailto:sciflowframework@gmail.com">sciflowframework@gmail.com</a>
+Further details of the SciFlow framework can be found at ![https://sciflow-fyp.github.io](https://sciflow-fyp.github.io). 

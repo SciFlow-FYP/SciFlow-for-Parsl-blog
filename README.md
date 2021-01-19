@@ -8,6 +8,7 @@ SciFlow is a flexible workflow management system which can be executed on a mult
 
 ## SciFlow Workflow Connectors
 A SciFlow workflow is constructed by stringing together individual Python-Parsl computational units, coordinated by a Golang control thread using ‘connectors’. With SciFlow’s channel connectors, the user is able to connect computational components in a variety of commonly used workflow patterns, as suited to his application. 
+
 The diagram below depicts an example scientific workflow, which makes use of three SciFlow connector types. 
 1. Sequence Connector for sequential execution of workflow modules
 2. Parallel Split Connector for splitting the coordination thread into concurrent modules

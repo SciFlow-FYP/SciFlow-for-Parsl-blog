@@ -1,5 +1,7 @@
 # SciFlow project using Parsl to execute Scientific Workflows on HPC resources
 
+19th January 2021 -- Amanda Wijewickrama and Rajini Wijayawardana, University of Colombo School of Computing, Sri Lanka. 
+
 The majority of tasks that we, as researchers and analysts, perform, are conveniently expressible as scientific workflows. These workflows provide abstraction, integration and reusability, thereby easing the scientific knowledge discovery process. However, as the complexity of the scientific problem increases, the complexity of the workflow too increases proportionately. To facilitate such interactions, workflows utilize complex connectors. 
 
 The SciFlow framework provides a set of compositional channel connectors in a control thread, which can be used to construct a variety of workflow patterns. We separate computational components from coordination components by writing a separate control thread to provide easier workflow modification and computational module reusability to users. 

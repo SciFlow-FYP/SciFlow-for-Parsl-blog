@@ -41,6 +41,6 @@ SciFlow brings together the concepts of scientific workflow management and impli
 
 Parsl allows the SciFlow workflow management framework to scale out easily on a range of HPC resources, while reaping the benefits of data parallelization in computational modules. Parsl’s implicit parallelism makes complex computational resources accessible with minimal effort to domain users, irrespective of their HPC knowledge.
 
-Please feel free to reach out to us at <a href="mailto:sciflowframework@gmail.com">sciflowframework@gmail.com</a>
+Please feel free to reach out to us at <a href="mailto:sciflowframework@gmail.com">sciflowframework@gmail.com</a>.
 
 Further details of the SciFlow framework can be found at [https://sciflow-fyp.github.io](https://sciflow-fyp.github.io). 
